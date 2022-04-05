@@ -17,6 +17,7 @@ const Login = () => {
     };
     const onFailure = (response) => {
         console.log('Login Failed', response);
+        alert("Login Failed!");
     };
     return (
         <div>
