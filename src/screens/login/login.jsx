@@ -20,7 +20,7 @@ const Login = () => {
         alert("Login Failed!");
     };
     return (
-        <div>
+        <div style={{marginTop:"150px"}}>
             <GoogleLogin
                 disabled={false}
                 clientId={clientId}
