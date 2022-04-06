@@ -7,7 +7,7 @@ import Search from './screens/search/search';
 import Details from './screens/details/details';
 
 function App() {
-  const [book, setBook] = useState({});
+  const [book, setBook] = useState([]);
   return (
     <div className="App">
       <Routes>
