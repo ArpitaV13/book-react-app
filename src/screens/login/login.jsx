@@ -17,9 +17,11 @@ const Login = () => {
     };
     const onFailure = (response) => {
         console.log('Login Failed', response);
+        alert("login failed!")
     };
     return (
-        <div>
+        <div style={{marginTop:'150px'}}>
+            <h1>Please login to your account!</h1>
             <GoogleLogin
                 disabled={false}
                 clientId={clientId}

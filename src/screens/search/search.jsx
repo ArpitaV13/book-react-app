@@ -26,9 +26,9 @@ const Search = props => {
         }
     }
     return (
-        <div>
-            <input type="text" onChange={(val) => setQuery(val.target.value)} placeholder='Search for books' />
-            <button onClick={search}>Search</button>
+        <div style={{marginTop:'150px'}}>
+            <input style={{padding:'0.6rem'}} type="text" onChange={(val) => setQuery(val.target.value)} placeholder='Search for books' />
+            <button style={{padding:'0.6rem',margin:'1rem',cursor:'pointer'}}onClick={search}>Search</button>
 
             <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                 {
